@@ -1,0 +1,18 @@
+go 1.22
+
+toolchain go1.22.3
+
+use (
+	./account
+	./app
+	./db/adminer
+	./job/heartbeat
+	./job/init
+	./license
+	./node
+	./objectstorage
+	./pkg
+	./resources
+	./terminal
+	./user
+)
